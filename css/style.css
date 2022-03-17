@@ -1,0 +1,33 @@
+.wraper-box {
+	width: 400px;
+	height: 400px;
+	background: lightblue;
+	position: relative;
+}
+.child-box {
+	width: 150px;
+	height: 150px;
+	background: red;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 2;
+}
+.child-box2 {
+	width: 150px;
+	height: 150px;
+	background: blue;
+	position: absolute;
+	right: 50px;
+	bottom: 50px;
+	z-index: 3;
+}
+.hello {
+	position: absolute;
+	top: 100px;
+	left: 50px;
+	color: #fff;
+}
+.image-wraper {
+	position: relative;
+}
